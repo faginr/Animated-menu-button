@@ -1,0 +1,32 @@
+.menu-btn {
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+    position: absolute;
+    right: 35px;
+    top: 30px;
+
+}
+
+.menu-line {
+    width: 28px;
+    height: 3px;
+    margin: 0 0 5px 0;
+    background-color: #000;
+    transition: all 0.5s ease-out;
+}
+
+.revert {
+    transform: rotate(180deg) translate(0px, 7px);
+}
+
+.spin-top {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.spin-bot {
+    transform: rotate(-45deg) translate(7px, -6px);
+}
+
+.vanish {
+    opacity: 0;
+}
